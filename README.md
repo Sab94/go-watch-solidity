@@ -4,7 +4,7 @@ It is a handy little tool to watch a solidity file and generate abi, bin and gob
 
 # Install
 
-`go get -u -x github.com/Sab94/go-watch-solidity`
+`go get -u github.com/Sab94/go-watch-solidity`
 
 Note, go-watch-solidity needs `solc` installed to run. Here is the [official guide](https://solidity.readthedocs.io/en/latest/installing-solidity.html) to install solc.
 
