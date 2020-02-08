@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/project52/go-watch-solodity/cmd"
+	"github.com/Sab94/go-watch-solodity/cmd"
 )
 
 func main() {

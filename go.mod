@@ -1,4 +1,4 @@
-module github.com/project52/go-watch-solodity
+module github.com/Sab94/go-watch-solodity
 
 go 1.13
 

@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/project52/go-watch-solodity/lib/generator"
+	"github.com/Sab94/go-watch-solodity/lib/generator"
 	"github.com/spf13/cobra"
 	"gopkg.in/fsnotify.v1"
 )
