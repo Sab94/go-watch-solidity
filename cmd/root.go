@@ -14,10 +14,10 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "gws",
+	Use:   "go-watch-solidity",
 	Short: "Go Watch Solidity",
 	Long: `
-   Go Watch Solidity is a watcher for a given solodity file.
+   Go Watch Solidity is a watcher for a given solidity file.
    It generates abi, bin, and go bindings for the given solidity
    file on save.
 	`,
@@ -68,6 +68,14 @@ func Execute() error {
 }
 
 func SolidityWatcher(file string, abi bool, bin bool, bindgo bool, dest string) {
+	// Generate once before starting Watcher
+	err := generator.Generate(file, abi, bin, bindgo, dest)
+	if err != nil {
+		fmt.Println("error:", err)
+		return
+	}
+	fmt.Println("Generated !!")
+
 	watcher, err := fsnotify.NewWatcher()
 	if err != nil {
 		log.Fatal(err)

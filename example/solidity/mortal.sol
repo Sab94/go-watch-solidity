@@ -1,3 +1,4 @@
+/* Example is taken from https://github.com/quantanet/solidity-examples */
 pragma solidity >=0.6.0;
 
 contract Mortal {
