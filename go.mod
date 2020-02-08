@@ -1,4 +1,4 @@
-module github.com/Sab94/go-watch-solodity
+module github.com/Sab94/go-watch-solidity
 
 go 1.13
 
