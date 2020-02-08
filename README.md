@@ -11,7 +11,7 @@ Note, go-watch-solidity needs `solc` installed to run. Here is the [official gui
 # Usage
 
 ```
-$ go-watch-solodity -h
+$ go-watch-solidity -h
    Go Watch Solidity is a watcher for a given solidity file.
    It generates abi, bin, and go bindings for the given solidity
    file on save.

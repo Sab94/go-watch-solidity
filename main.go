@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Sab94/go-watch-solodity/cmd"
+	"github.com/Sab94/go-watch-solidity/cmd"
 )
 
 func main() {
