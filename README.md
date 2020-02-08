@@ -27,6 +27,12 @@ Flags:
   -h, --help          help for go-watch-solidity
 ```
 
+# Examples
+
+```
+$ go-watch-solidity -a -b -g -d=example/generated example/solidity/greeter.sol
+```
+
 # Project52
 
 It is one of my [project 52](https://github.com/Sab94/project52).
